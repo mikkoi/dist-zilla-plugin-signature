@@ -12,6 +12,8 @@ sub do_sign {
   my $self = shift;
   my $dir  = shift;
 
+  local %ENV = (%ENV, 'MODULE_SIGNATURE_AUTHOR', $self->zilla->authors->[0])
+      if( ! defined $ENV{MODULE_SIGNATURE_AUTHOR} );
   require Module::Signature;
   require File::chdir;
 
