@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  * Add Moose and Dist::Zilla to Prereqs / RuntimeRequires.
   * Add header to Changes file.
   * If env var MODULE_SIGNATURE_AUTHOR is not set, use the first distribution author.
 
