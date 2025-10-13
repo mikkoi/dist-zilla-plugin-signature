@@ -1,5 +1,8 @@
+Revision history for {{$dist->name}}
+
 {{$NEXT}}
-  * If env var MODULE_SIGNATURE_AUTHOR is not set, use the first distribution author
+  * Add header to Changes file.
+  * If env var MODULE_SIGNATURE_AUTHOR is not set, use the first distribution author.
 
 1.252770 -- Sun Oct 05 01:22:11 CEST 2025
   * Distribution ownership transferred to Mikko Koivunalho <mikkoi@cpan.org> 2025-10-03.
